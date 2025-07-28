@@ -26,7 +26,6 @@ The output is a file named `books_data.json` containing a list of dictionaries:
   },
   ...
 ]
-```
 
 ### 📄 Files
 
@@ -35,10 +34,4 @@ The output is a file named `books_data.json` containing a list of dictionaries:
 | `day_3.py`        | Main script to perform the web scraping |
 | `books_data.json` | Output file storing scraped book data   |
 
----
 
-Made with 💻 by [Your Name](https://github.com/yourusername)
-
----
-
-Let me know if you'd like me to generate a `requirements.txt` and `LICENSE` file as well!
