@@ -1,37 +1,35 @@
 ## 📘 Books to Scrape - Web Scraper
 
-This project is a Python-based web scraper that extracts book titles and prices from the [Books to Scrape](https://books.toscrape.com/) website. It crawls through multiple pages and collects data for the first 70 books.
+This Python script scrapes book titles and prices from the [Books to Scrape](https://books.toscrape.com/) website. It collects data from multiple pages until it gets 70 books, and saves the results in a JSON file.
 
 ---
 
 ### ✅ Features
 
-* Scrapes **book title** and **price** from each listing
-* Crawls across multiple pages using the **"Next"** button
-* Handles network errors gracefully
-* Tracks and prints scraping progress
-* Saves data to a `books_data.json` file in **JSON** format
+* Scrapes book **title** and **price**
+* Follows the **next page** automatically
+* Stops after collecting 70 books
+* Saves the data to `books_data.json`
 
 ---
 
-### 📂 Output
+### 📄 Output
 
-The output is a file named `books_data.json` containing a list of dictionaries:
+The scraped data will be saved in:
+
+```
+books_data.json
+```
+
+Example:
 
 ```json
 [
   {
     "title": "A Light in the Attic",
     "price": "£51.77"
-  },
-  ...
+  }
 ]
-
-### 📄 Files
-
-| File              | Description                             |
-| ----------------- | --------------------------------------- |
-| `day_3.py`        | Main script to perform the web scraping |
-| `books_data.json` | Output file storing scraped book data   |
+```
 
 
